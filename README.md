@@ -21,9 +21,56 @@ The program performs the following tasks:
 - Package name: `oop.q2`
 - Main class: `Task1`
 
-## How to Compile and Run
+---
 
-1. **Compile:**
+## 📘 Classes Overview
 
-```bash
-javac oop/q2/Task1.java
+### 1. `Student.java`
+
+Fields:
+- `String name`
+- `String surname`
+- `String country`
+- `String info`
+
+Includes constructor, `toString()`, `equals()`, and `hashCode()`.
+
+### 2. `University.java`
+
+Methods:
+- `addStudent(Student s)`
+- `removeStudent(Student s)`
+- `printStudents()`
+- `getStudentInfoStrange(Student s)`
+
+Special logic in `getStudentInfoStrange()` based on whether the student is the author or someone else.
+
+### 3. `Main.java`
+
+Demonstrates how to:
+- Add students
+- Remove students
+- Print all students
+- Test `getStudentInfoStrange()` method in all required cases
+
+---
+
+## 🧪 Example Output
+
+```plaintext
+Current Students:
+Nikita Bezhanovi (Georgia) - Hardworking CS student
+John Doe (USA) - Basketball fan
+
+Info if I’m in university:
+OOP, Databases, Web Development
+
+Info if I’m NOT in university:
+69384751
+
+Friend's info:
+Basketball fan
+
+Unknown student:
+null
+
